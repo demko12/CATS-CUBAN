@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit&family=Lato:ital,wght@1,900&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="left-side">
+                <a href="./index.html"> <img src="./images/pravi logo.png" alt="logo" width="80px"></a>
+                <p class="logo-name">Cats cuban</p>
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a href="#">About page</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Support</a></li>
+                    <a href="login.html"><button class="move-left">Log in</button></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="adopt-container">
+
+        <div class="checkout">
+            <div class="adopt-header-logo">
+                <h2>CATS CUBAN</h2>
+            </div>
+            <div class="above-express-payments">
+                <p style="margin-bottom: -20px; ">Select one of the express
+                    payments:</p>
+            </div>
+            <div class="payment-type">
+                <a href="#"><img src="./images/shop-pay-logo.webp" alt="" width="150px"></a>
+                <a href="#"> <img src="./images/amazon.png" alt="" width="150px"></a>
+                <a href="#"><img src="./images/apple pay.png" alt="" width="150px"></a>
+                <a href="#"><img src="./images/paypal-logo.webp" alt="" width="150px"></a>
+            </div>
+            <p style="text-transform: uppercase; ">or continue below to pay with a credit card: </p>
+
+            <div class="contact-information">
+                <p style="font-weight: bold;">Contact information</p>
+                <p>Already have an account? <span><a href="login.html"
+                            style="text-decoration: none; color: #2b3e47; font-weight: 600; span:hover{text-decoration: underline;} ">Log
+                            in</a></span></p>
+            </div>
+
+            <div class="email">
+                <input type="email" placeholder="email" id="email">
+                <label><input type="checkbox">Email me with news and offers</label>
+            </div>
+
+            <div class="information">
+                <div class="filling-information">
+                    <h2>Shipping address</h2>
+                    <div class="checkout-name">
+                        <div>
+                            <input type="text" placeholder="First name">
+                            <input type="text" placeholder="Last name">
+                        </div>
+                    </div>
+
+                    <div class="company-address-apartment-city">
+                        <div>
+                            <input type="text" placeholder="Company(required for business addresses)">
+                        </div>
+                        <div><input type="text" placeholder="Address"></div>
+                        <div><input type="text" placeholder="Apartments,suite,etc(optional)"></div>
+                        <div><input type="text" placeholder="City"></div>
+
+                    </div>
+
+
+                    <div class="country-state-zipcode">
+                        <select name="Country/region">
+                            <option value="select">Country/region</option>
+                            <option value="country">Montenegro</option>
+                            <option value="country">Macedonia</option>
+                            <option value="country">Bosnia</option>
+                        </select>
+
+                        <select name="State">
+                            <option value="select">State</option>
+                            <option value="select">Rozaje</option>
+                            <option value="select">Skopje</option>
+                            <option value="select">Sarajevo</option>
+                        </select>
+
+                        <input type="number" placeholder="ZIP Code">
+                    </div>
+                    <div class="cell-phone">
+                        <input type="tel" placeholder="Phone(optional)">
+                    </div>
+                    <div class="continue-to-shipping">
+                        <button class="cts">Continue to shipping</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <!-- tomorrow to edit it to look like starbucks footer -->
+
+        <p style="margin: 3em 0px 0px 0px;">Copyright © Demko 2023</p>
+
+    </footer>
+
+</body>
+
+</html>
